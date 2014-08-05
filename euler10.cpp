@@ -1,3 +1,16 @@
+// Summation of primes
+// Problem 10
+// Published on 08 February 2002
+// http://projecteuler.net/problem=10
+//
+// The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+// 
+// Problem: Find the sum of all the primes below two million.
+//
+// Solution uses 6K +-1 < sqrt(n) brute force to find divisors 
+// in function prime_test.
+
+
 #include <iostream>
 #include <math.h>
 
