@@ -20,7 +20,9 @@ bool prime_test(unsigned long long a)
 {
 unsigned long long int i,to;
 to = (sqrt(a));
-if (((a % 2) == 0) || ((a % 3) == 0) || ((a % 5) == 0))return 0;
+
+if ((a == 2) || (a == 3) || (a == 5)) return true;
+if (((a % 2) == 0) || ((a % 3) == 0) || ((a % 5) == 0))return false;
 
 for (i=6; i<=(to+1); i=i+6)
 {
